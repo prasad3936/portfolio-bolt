@@ -3,14 +3,8 @@ import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Download, MessageC
 
 const Hero = () => {
   const handleDownloadCV = () => {
-    // Create a temporary link to download CV
-    // In a real application, you would host the CV file and link to it
-    const link = document.createElement('a');
-    link.href = '/cv/Prasad_Zungare_CV.pdf'; // You'll need to add this file to the public folder
-    link.download = 'Prasad_Zungare_DevOps_Engineer_CV.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Open Google Drive CV link in new tab
+    window.open('https://drive.google.com/file/d/1_NjBMcBRvGMJSukRCyJM3UnEwqwv66Je/view?usp=sharing', '_blank');
   };
 
   const handleWhatsAppContact = () => {
