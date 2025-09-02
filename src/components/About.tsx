@@ -25,30 +25,17 @@ const About = () => {
               <p className="text-lg text-gray-300 leading-relaxed text-center">
                👋 Hi, I’m Prasad
 
-Cloud × DevOps Engineer | Creator | Blogger
+Cloud × DevOps Engineer 
 
-💡 “Push to Prod — bringing ideas to life with code.”
-
-I code, I write YAMLs, and I love turning ideas into products. From designing infrastructure to deploying containers, I bring concepts to life using AWS, Kubernetes, Docker, GitHub Actions, and ArgoCD.
+I code, I write YAMLs, and I love turning ideas into reality. From designing infrastructure to deploying applications, I bring concepts to life using AWS, Kubernetes, Docker, GitHub Actions, and ArgoCD.
 
 I document the journey along the way — sharing what I learn through blogs on Medium so others in the DevOps and cloud community can benefit too.
 
-When I’m not working with tech, you’ll probably find me:
+When I’m not working with tech, you’ll probably find me,
 📚 Reading books on mythology & history
 🏍️ Riding through countryside roads
 🌱 Spending time on my farm
 
-🚀 What I Do
-
-Cloud Infrastructure with AWS
-
-Containerization & Orchestration (Docker, Kubernetes, Podman)
-
-CI/CD Pipelines with GitHub Actions, Jenkins, ArgoCD
-
-Infrastructure as Code (Ansible, Terraform, YAML-driven automation)
-
-App Development & Automation Workflows
               </p>
             </div>
           </div>
