@@ -23,7 +23,7 @@ const About = () => {
           <div className="mb-16">
             <div className="bg-zinc-800 rounded-lg p-8 border border-zinc-700">
               <p className="text-lg text-gray-300 leading-relaxed text-center">
-               👋 Hi, I’m [Your Name]
+               👋 Hi, I’m Prasad
 
 Cloud × DevOps Engineer | Creator | Blogger
 
