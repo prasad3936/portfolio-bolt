@@ -23,11 +23,32 @@ const About = () => {
           <div className="mb-16">
             <div className="bg-zinc-800 rounded-lg p-8 border border-zinc-700">
               <p className="text-lg text-gray-300 leading-relaxed text-center">
-                A passionate and skilled DevOps and Cloud Engineer with a strong background in infrastructure provisioning, automation, and monitoring. I have completed RHCSA and been certified by kodekloud  for AWS Certified Cloud Practitioner and Linux Foundation Certified System Administrator (LFCS). 
+               👋 Hi, I’m [Your Name]
 
-Have experience working with tools such as Jenkins, Terraform, and Ansible to streamline development processes and ensure efficient code deployment. Proficient in managing and monitoring cloud infrastructure services on AWS  as well as maintaining high availability in Kubernetes-based container clusters. Successfully implemented monitoring and logging tools like  Grafana to ensure comprehensive visibility into system performance and implemented GitOps for managing infrastructure as code. My expertise also includes integrating automation testing into the CI/CD pipeline and developing scripts to automate tasks, improving efficiency and reducing manual effort. 
+Cloud × DevOps Engineer | Creator | Blogger
 
-With a Bachelor's degree in Computer Science and a strong GPA, I am committed to continuous learning and professional growth. I am seeking opportunities to leverage my skills and contribute to the success of DevOps, SRE and cloud engineering projects.
+💡 “Push to Prod — bringing ideas to life with code.”
+
+I code, I write YAMLs, and I love turning ideas into products. From designing infrastructure to deploying containers, I bring concepts to life using AWS, Kubernetes, Docker, GitHub Actions, and ArgoCD.
+
+I document the journey along the way — sharing what I learn through blogs on Medium so others in the DevOps and cloud community can benefit too.
+
+When I’m not working with tech, you’ll probably find me:
+📚 Reading books on mythology & history
+🏍️ Riding through countryside roads
+🌱 Spending time on my farm
+
+🚀 What I Do
+
+Cloud Infrastructure with AWS
+
+Containerization & Orchestration (Docker, Kubernetes, Podman)
+
+CI/CD Pipelines with GitHub Actions, Jenkins, ArgoCD
+
+Infrastructure as Code (Ansible, Terraform, YAML-driven automation)
+
+App Development & Automation Workflows
               </p>
             </div>
           </div>
