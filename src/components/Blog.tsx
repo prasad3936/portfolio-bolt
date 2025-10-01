@@ -27,6 +27,15 @@ const Blog = () => {
       readTime: '10 min read',
       featured: false
     }
+    {
+      title: 'From Dev To Delivery : How I Used AI to Build and GitHub Actions To Ship a Full Desktop App',
+      excerpt: 'Learn how to use for faster and effective development',
+      url: 'https://medium.com/@prasadcpatil246/from-dev-to-delivery-how-i-used-ai-to-build-and-github-actions-to-ship-a-full-desktop-app-718d33fe483a',
+      date: 'Published on Medium',
+      readTime: '10 min read',
+      featured: false
+    }
+
   ];
 
   const featuredPost = blogPosts.find(post => post.featured);
