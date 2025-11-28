@@ -4,7 +4,9 @@ import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Download, MessageC
 const Hero = () => {
   const handleDownloadCV = () => {
     // Open Google Drive CV link in new tab
-    window.open('https://drive.google.com/file/d/1_NjBMcBRvGMJSukRCyJM3UnEwqwv66Je/view?usp=sharing', '_blank');
+    window.open(
+      "https://drive.google.com/file/d/1yimr1pAj_-NwoOj0-piediUA9WK4MObi/view?usp=sharing"
+    );
   };
 
   const handleWhatsAppContact = () => {
