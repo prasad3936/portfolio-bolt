@@ -1,21 +1,35 @@
-import React from 'react';
-import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Download, MessageCircle } from 'lucide-react';
+import React from "react";
+import {
+  Github,
+  Linkedin,
+  Mail,
+  Phone,
+  MapPin,
+  ExternalLink,
+  Download,
+  MessageCircle,
+} from "lucide-react";
 
 const Hero = () => {
   const handleDownloadCV = () => {
     // Open Google Drive CV link in new tab
     window.open(
-      "https://drive.google.com/file/d/1yimr1pAj_-NwoOj0-piediUA9WK4MObi/view?usp=sharing"
+      "https://drive.google.com/file/d/1-6MhKVO70LJo5tUYYu6bNdSUH89hcgYb/view?usp=sharing"
     );
   };
 
   const handleWhatsAppContact = () => {
-    const whatsappMessage = encodeURIComponent('Hi Prasad! I found your portfolio and would like to connect with you regarding DevOps opportunities.');
-    window.open(`https://wa.me/919637370116?text=${whatsappMessage}`, '_blank');
+    const whatsappMessage = encodeURIComponent(
+      "Hi Prasad! I found your portfolio and would like to connect with you regarding DevOps opportunities."
+    );
+    window.open(`https://wa.me/919637370116?text=${whatsappMessage}`, "_blank");
   };
 
   return (
-    <section id="home" className="min-h-screen bg-zinc-950 flex items-center justify-center px-6">
+    <section
+      id="home"
+      className="min-h-screen bg-zinc-950 flex items-center justify-center px-6"
+    >
       <div className="text-center max-w-4xl mx-auto">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
@@ -35,7 +49,10 @@ const Hero = () => {
           </div>
           <div className="flex items-center gap-2">
             <Mail size={16} />
-            <a href="mailto:prasadcpatil246@gmail.com" className="hover:text-blue-400 transition-colors">
+            <a
+              href="mailto:prasadcpatil246@gmail.com"
+              className="hover:text-blue-400 transition-colors"
+            >
               prasadcpatil246@gmail.com
             </a>
           </div>
@@ -45,7 +62,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center gap-2">
             <MessageCircle size={16} />
-            <button 
+            <button
               onClick={handleWhatsAppContact}
               className="hover:text-green-400 transition-colors"
             >
@@ -61,7 +78,10 @@ const Hero = () => {
             rel="noopener noreferrer"
             className="p-3 bg-zinc-800 rounded-full hover:bg-zinc-700 transition-colors group"
           >
-            <Github size={24} className="text-gray-300 group-hover:text-white" />
+            <Github
+              size={24}
+              className="text-gray-300 group-hover:text-white"
+            />
           </a>
           <a
             href="https://linkedin.com/in/prasad-zungare"
@@ -69,7 +89,10 @@ const Hero = () => {
             rel="noopener noreferrer"
             className="p-3 bg-zinc-800 rounded-full hover:bg-zinc-700 transition-colors group"
           >
-            <Linkedin size={24} className="text-gray-300 group-hover:text-white" />
+            <Linkedin
+              size={24}
+              className="text-gray-300 group-hover:text-white"
+            />
           </a>
           <a
             href="https://medium.com/@prasadcpatil246"
@@ -77,7 +100,10 @@ const Hero = () => {
             rel="noopener noreferrer"
             className="p-3 bg-zinc-800 rounded-full hover:bg-zinc-700 transition-colors group"
           >
-            <ExternalLink size={24} className="text-gray-300 group-hover:text-white" />
+            <ExternalLink
+              size={24}
+              className="text-gray-300 group-hover:text-white"
+            />
           </a>
           <button
             onClick={handleWhatsAppContact}
@@ -96,7 +122,11 @@ const Hero = () => {
 
         <div className="animate-bounce">
           <button
-            onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() =>
+              document
+                .getElementById("about")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
             className="text-gray-400 hover:text-white transition-colors"
           >
             <div className="w-6 h-10 border-2 border-gray-400 rounded-full mx-auto mb-2 relative">

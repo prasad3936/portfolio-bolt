@@ -4,17 +4,6 @@ import { MapPin, Calendar, GraduationCap } from "lucide-react";
 const Resume = () => {
   const experiences = [
     {
-      title: "Founder",
-      company: "ZP GLOBAL SYSTEMS",
-      location: "Pune",
-      period: "May 2024 – Present",
-      responsibilities: [
-        "Project planning and management",
-        "Development and deployment of full-stack web and mobile applications",
-        "Sales, branding, and business development strategies",
-      ],
-    },
-    {
       title: "DevOps Development Engineer",
       company: "Real IT Solutions",
       location: "Pune",

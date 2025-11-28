@@ -34,18 +34,6 @@ const Projects = () => {
         "GitOps implementation",
       ],
     },
-    {
-      title: "Voter Data Management System",
-      description:
-        "Mobile App To Manage your entire voter data efficiently with our modern Voter Management App. Analyze, filter, and organize your voters with ease. Perfect for Election Campaign Teams, Zilla Parishads, Nagar Parishads, and local representatives",
-      icon: GitBranch,
-      technologies: ["Android", "Kotlin", "Java", "Gitea Actions", "Docker"],
-      highlights: [
-        "Real-time Data Management",
-        "Automated deployment",
-        "GitOps implementation",
-      ],
-    },
   ];
 
   const certificates = [
