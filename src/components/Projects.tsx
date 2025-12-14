@@ -1,8 +1,29 @@
 import React from "react";
-import { DollarSign, GitBranch, Zap, BarChart } from "lucide-react";
+import { DollarSign, GitBranch, Zap, BarChart, ServerCog } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "CI/CD Automation for Android Releases",
+      description:
+        "Designed and implemented a production-grade CI/CD pipeline using multi-stage Docker builds and GitHub Actions to automate signed Android release APK generation in a fully reproducible environment.",
+      icon: ServerCog,
+      technologies: [
+        "Docker (Multi-stage Builds)",
+        "GitHub Actions",
+        "Android SDK",
+        "Gradle",
+        "CI/CD Pipelines",
+        "Release Engineering",
+      ],
+      highlights: [
+        "Automated end-to-end Android release pipeline, reducing manual effort by ~80%",
+        "Improved release consistency to 100% across local, CI, and Docker environments",
+        "Reduced build and validation time by ~40–50%",
+        "Implemented secure keystore handling via CI secrets with zero leaks",
+      ],
+    },
+
     {
       title: "Cloud Cost Optimization",
       description:
@@ -15,6 +36,7 @@ const Projects = () => {
         "Efficient resource cleanup",
       ],
     },
+
     {
       title: "End-to-End CI/CD Pipeline",
       description:
