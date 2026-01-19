@@ -12,7 +12,7 @@ data "aws_security_group" "default" {
   
 }
 resource "aws_instance" "portfolio" {
-  ami = "ami-0360c520857e3138f"
+  ami = var.ami
   instance_type = "t2.nano"
   vpc_security_group_ids = [data.aws_security_group.default.id]
   user_data = file("${path.module}/${var.userdata_script}")
