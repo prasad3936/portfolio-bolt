@@ -10,22 +10,51 @@ import {
 
 const About = () => {
   const skills = [
-    { category: "Cloud", items: ["AWS", "OpenStack", "Azure"], icon: Cloud },
+    {
+      category: "Cloud",
+      items: ["AWS", "OpenStack", "GCP", "Azure"],
+      icon: Cloud,
+    },
     { category: "Containers", items: ["Docker", "Podman"], icon: Container },
-    { category: "Orchestration", items: ["Kubernetes"], icon: Settings },
+    {
+      category: "Orchestration",
+      items: ["Kubernetes", "Helm", "k3s"],
+      icon: Settings,
+    },
     {
       category: "CI/CD",
       items: ["Jenkins", "GitHub Actions", "Gitea Actions", "ArgoCD"],
       icon: GitBranch,
     },
     { category: "IaC", items: ["Terraform"], icon: Code },
-    { category: "Config Mgmt", items: ["Ansible"], icon: Settings },
+    {
+      category: "Configuration Management",
+      items: ["Ansible"],
+      icon: Settings,
+    },
+    {
+      category: "Project Management & Collaboration",
+      items: ["Jira", "Confluence", "Slack", "Trello"],
+      icon: Container,
+    },
     { category: "Languages", items: ["Bash", "Python"], icon: Code },
     { category: "Linux", items: ["Red Hat", "Ubuntu", "CentOS"], icon: Server },
     {
       category: "Version Control",
       items: ["Git", "Gitea", "GitHub"],
       icon: GitBranch,
+    },
+    {
+      category: "Monitoring & Logging",
+      items: [
+        "Prometheus",
+        "Grafana",
+        "Kibana",
+        "Splunk",
+        "Datadog",
+        "ELK Stack",
+      ],
+      icon: Settings,
     },
   ];
 

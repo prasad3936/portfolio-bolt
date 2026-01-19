@@ -38,27 +38,6 @@ const Resume = () => {
         "Implemented secure HTTPS protocols by setting up SSL certifications with Certbot and Integrated DNS Records and domain management with hostme.com",
       ],
     },
-    {
-      title: "System Administrator Intern",
-      company: "LinuxWorld Informatics",
-      location: "Jaipur",
-      period: "Jul 2023 – Sep 2023",
-      responsibilities: [
-        "Hands-on Red Hat Linux System Administration",
-        "Configured secure, scalable Linux-based server infrastructures",
-      ],
-    },
-    {
-      title: "AWS Intern",
-      company: "Maxgen Technologies",
-      location: "Pune",
-      period: "Mar 2023 – Jun 2023",
-      responsibilities: [
-        "Worked with AWS services: EC2, RDS, VPC, S3, ECS, CloudFormation, IAM",
-        "Implemented IaC using Terraform and CloudFormation",
-        "Hosted WordPress using AWS infrastructure with secure IAM and CloudWatch monitoring",
-      ],
-    },
   ];
 
   const education = [
